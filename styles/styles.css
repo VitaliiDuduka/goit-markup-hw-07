@@ -117,7 +117,7 @@ a {
   display: none;
 }
 
-/* OUR TEAM */
+/* =============OUR TEAM=========== */
 
 .team-section {
   background-color: var(--team-section-color);
@@ -196,6 +196,51 @@ a {
   width: 16px;
   height: 16px;
 }
+/* =============OUR TEAM============== */
+/* ==============CUSTOMERS============ */
+
+.customers-title {
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.customers-list {
+  display: flex;
+  column-gap: 16px;
+  row-gap: 72px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.customers-item-link {
+  width: 168px;
+  height: 88px;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  color: #8e8f99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.customers-item-link:hover,
+.customers-item-link:focus {
+  color: #404bbf;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.customers-icon {
+  width: 104px;
+  height: 56px;
+  fill: currentColor;
+}
+/* ==============CUSTOMERS============ */
 
 @media screen and (min-width: 480px) {
   .container {
@@ -213,6 +258,12 @@ a {
     column-gap: 24px;
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  /* ============CUSTOMERS============ */
+
+  .customers-list {
+    column-gap: 24px;
   }
 }
 
@@ -291,6 +342,11 @@ a {
 
   .team-section {
     padding: 120px 0;
+  }
+
+  /* ==============CUSTOMERS============ */
+  .customers {
+    padding: 120px 0px;
   }
 }
 
@@ -455,49 +511,6 @@ a {
   background-color: var(--accent-color);
 }
  */
-/* CUSTOMERS */
-/* 
-.customers {
-}
-
-.customers-title {
-  font-size: 36px;
-  line-height: calc(40 / 36);
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  margin-bottom: 72px;
-}
-
-.customers-list {
-  display: flex;
-  gap: 24px;
-}
-
-.customers-item-link {
-  width: 168px;
-  height: 88px;
-  border: 1px solid currentColor;
-  border-radius: 4px;
-  color: #8e8f99;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.customers-item-link:hover,
-.customers-item-link:focus {
-  color: #404bbf;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.customers-icon {
-  width: 104px;
-  height: 56px;
-  fill: currentColor;
-} */
 
 /* =======================FOOTER=================== */
 /* 

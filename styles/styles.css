@@ -80,7 +80,63 @@ a {
   padding: 96px 16px;
 }
 
-/* MAIN OUR STRENTH */
+/* ==============MAIN HERO ==========*/
+
+.main-hero {
+  padding-top: 16px;
+  text-align: center;
+  max-width: 1440px;
+  height: 432px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-color: var(--background-color);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-hero-slogan {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: calc(40 / 36);
+  letter-spacing: 0.02em;
+  color: var(--main-hero-color);
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.main-btn {
+  background: var(--logo-web-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
+  color: var(--main-hero-color);
+  font-family: inherit;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 16px 32px;
+  border: none;
+  margin-top: 72px;
+  margin-right: auto;
+  margin-left: auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.main-btn:hover,
+.main-btn:focus {
+  background-color: var(--accent-color);
+}
+
+/* =============MAIN HERO =========*/
+
+/* =========MAIN OUR STRENTH ====== */
 
 .main-strenth {
   display: flex;
@@ -246,6 +302,27 @@ a {
   .container {
     max-width: 778px;
   }
+
+  /* =============MAIN HERO =========*/
+  .main-hero {
+    height: 436px;
+  }
+  .main-hero-slogan {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: calc(60 / 56);
+    letter-spacing: 0.02em;
+    color: var(--main-hero-color);
+    max-width: 540px;
+    margin: 0 auto;
+  }
+
+  .main-btn {
+    margin-top: 40px;
+  }
+
+  /* MAIN OUR STRENTH */
+
   .main-strenth-title {
     text-align: left;
   }
@@ -272,6 +349,20 @@ a {
     max-width: 1158px;
     padding: 0 15px;
   }
+
+  /* ==============MAIN HERO ==========*/
+  .main-hero {
+    padding-top: 188px;
+  }
+  .main-hero {
+    height: 600px;
+  }
+
+  .main-btn {
+    margin-top: 48px;
+  }
+
+  /* MAIN OUR STRENTH */
 
   .our-strenth {
     padding: 120px 0;
@@ -457,62 +548,7 @@ a {
   color: var(--accent-color);
 } */
 
-/* ===================MAIN HERO ====================*/
-/* 
-.main-hero {
-  padding: 188px 0;
-  text-align: center;
-  max-width: 1440px;
-  height: 600px;
-  margin-right: auto;
-  margin-left: auto;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/people-office.jpg);
-  background-color: var(--background-color);
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: 1px solid #000000;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.main-hero-slogan {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: calc(60 / 56);
-  letter-spacing: 0.02em;
-  color: var(--main-hero-color);
-  width: 500px;
-  margin: 0 auto;
-}
-
-.main-btn {
-  background: var(--logo-web-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: calc(24 / 16);
-  letter-spacing: 0.04em;
-  color: var(--main-hero-color);
-  font-family: inherit;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  padding: 16px 32px;
-  border: none;
-  margin-top: 40px;
-  margin-right: auto;
-  margin-left: auto;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.main-btn:hover,
-.main-btn:focus {
-  background-color: var(--accent-color);
-}
- */
-
-/* =======================FOOTER=================== */
+/* =============FOOTER=============== */
 /* 
 .footer {
   background-color: var(--background-color);

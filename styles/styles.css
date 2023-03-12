@@ -111,6 +111,12 @@ a {
   color: #434455;
 }
 
+/* MAIN WHAT WE ARE DOING */
+
+.what-doing {
+  display: none;
+}
+
 @media screen and (min-width: 480px) {
   .container {
     max-width: 778px;
@@ -175,6 +181,34 @@ a {
 
   .main-strenth-text {
     font-weight: 400;
+  }
+
+  /* MAIN WHAT WE ARE DOING */
+
+  .what-doing {
+    display: block;
+    padding-bottom: 120px;
+  }
+
+  .main-doing {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(40 / 36);
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--background-color);
+    margin-bottom: 72px;
+  }
+
+  .main-doing-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .main-doing-item {
   }
 }
 
@@ -337,32 +371,6 @@ a {
 .main-btn:hover,
 .main-btn:focus {
   background-color: var(--accent-color);
-}
- */
-/* MAIN WHAT WE ARE DOING */
-/* 
-.what-doing {
-  padding-bottom: 120px;
-}
-
-.main-doing {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: calc(40 / 36);
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--background-color);
-  margin-bottom: 72px;
-}
-
-.main-doing-list {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
-
-.main-doing-item {
 }
  */
 /* OUR TEAM */

@@ -52,6 +52,25 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="mobile-menu-open" data-menu-open>
+          <svg class="mobile-menu-open-icon" width="32px" height="22">
+            <use href="./images/sprite.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu" data-menu>
+        <button class="mobile-menu-close-btn" data-menu-close>
+          <svg class="mobile-menu-close-icon" width="8px" height="8px">
+            <use href="./images/sprite.svg#icon-close-modal"></use>
+          </svg>
+        </button>
+        <ul class="mobile-nav">
+          <li><a class="mobile-item" href="./index.html">Studio</a></li>
+
+          <li><a class="mobile-item" href="./portfolio.html">Portfolio</a></li>
+
+          <li><a class="mobile-item current" href="">Contacts</a></li>
+        </ul>
       </div>
     </header>
     <!-- Main -->
@@ -538,6 +557,7 @@
       </div>
     </div>
 
-    <script src="./js/modal,js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

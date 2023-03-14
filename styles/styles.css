@@ -77,7 +77,7 @@ a {
   width: 100%;
   max-width: 428px;
   margin: 0 auto;
-  padding: 96px 0px;
+  /* padding: 96px 0px; */
 }
 
 /* ======= HEADER ===========  */
@@ -270,6 +270,7 @@ a {
   height: 432px;
   margin-right: auto;
   margin-left: auto;
+  padding: 96px 0px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -319,6 +320,10 @@ a {
 
 /* =========MAIN OUR STRENTH ====== */
 
+.our-strenth {
+  padding: 96px 0px;
+}
+
 .main-strenth {
   display: flex;
   gap: 72px;
@@ -357,6 +362,7 @@ a {
 /* =============OUR TEAM=========== */
 
 .team-section {
+  padding: 96px 0px;
   background-color: var(--team-section-color);
 }
 
@@ -436,6 +442,10 @@ a {
 /* =============OUR TEAM========== */
 /* ==============CUSTOMERS============ */
 
+.customers {
+  padding: 96px 0px;
+}
+
 .customers-title {
   font-size: 36px;
   line-height: calc(40 / 36);
@@ -481,6 +491,7 @@ a {
 
 /* =============FOOTER=============== */
 .footer {
+  padding: 96px 0px;
   background-color: var(--background-color);
 }
 
@@ -989,8 +1000,8 @@ a {
 
   /* ============FOOTER=============== */
   .divide {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
   }
   .subscribe-submit-btn {
     align-self: flex-start;
@@ -1062,10 +1073,10 @@ a {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.section-project {
+/* .section-project {
   padding-top: 96px;
   padding-bottom: 120px;
-}
+} */
 
 .project-list {
   display: flex;

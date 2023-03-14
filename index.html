@@ -52,14 +52,14 @@
             </li>
           </ul>
         </address>
-        <button type="button" class="mobile-menu-open" data-menu-open>
+        <button type="button" class="mobile-menu-open" mobile-menu-open>
           <svg class="mobile-menu-open-icon" width="32px" height="22">
             <use href="./images/sprite.svg#icon-burger"></use>
           </svg>
         </button>
       </div>
-      <div class="mobile-menu" data-menu>
-        <button class="mobile-menu-close-btn" data-menu-close>
+      <div class="mobile-menu" mobile-menu>
+        <button class="mobile-menu-close-btn" mobile-menu-close>
           <svg class="mobile-menu-close-icon" width="8px" height="8px">
             <use href="./images/sprite.svg#icon-close-modal"></use>
           </svg>
@@ -70,6 +70,48 @@
           <li><a class="mobile-item" href="./portfolio.html">Portfolio</a></li>
 
           <li><a class="mobile-item current" href="">Contacts</a></li>
+        </ul>
+        <ul class="mobile-menu-contacts">
+          <li class="mobile-menu-phone">
+            <a class="mobile-menu-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="mobile-menu-mail">
+            <a class="mobile-menu-mail-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <ul class="mobile-social-list">
+            <li class="social-list-item">
+              <a href="" class="social-list-link">
+                <svg class="social-list-menu-icon">
+                  <use href="./images/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="social-list-link">
+                <svg class="social-list-menu-icon">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="social-list-link">
+                <svg class="social-list-menu-icon">
+                  <use href="./images/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="social-list-link">
+                <svg class="social-list-menu-icon">
+                  <use href="./images/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </ul>
       </div>
     </header>
@@ -556,7 +598,12 @@
         </form>
       </div>
     </div>
-
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>
   </body>

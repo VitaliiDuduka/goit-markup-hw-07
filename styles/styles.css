@@ -143,7 +143,6 @@ a {
     opacity: 1;
     visibility: visible;
     pointer-events: initial;
-
   }
 
   .mobile-menu-close-btn {
@@ -200,6 +199,43 @@ a {
 
 .header-adr-list {
   display: none;
+}
+
+.mobile-menu-contacts {
+  display: block;
+  padding-left: 40px;
+  margin-top: 284px;
+}
+
+.mobile-menu-phone {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  text-transform: capitalize;
+  color: #4d5ae5;
+  margin-bottom: 40px;
+}
+
+.mobile-menu-mail {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
+  margin-bottom: 40px;
+}
+
+.mobile-menu-mail-link {
+  color: #434455;
+}
+
+.social-list-menu-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.mobile-social-list {
+  display: flex;
+  gap: 56px;
 }
 
 /* ======= /HEADER ===========  */
@@ -580,6 +616,8 @@ a {
 }
 /* =============FOOTER================ */
 
+/* ========MEDIA TABLET=============== */
+
 @media screen and (min-width: 480px) {
   .container {
     max-width: 778px;
@@ -761,7 +799,9 @@ a {
   }
 }
 
-@media screen and (min-width: 720px) {
+/* ======= MEDIA DESKTOP========== */
+
+@media screen and (min-width: 768px) {
   .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -880,18 +920,13 @@ a {
   }
 }
 
-/* .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-} */
+/* ============PORTFOLIO============= */
 
 .project-section {
   flex-wrap: wrap;
   gap: 20px;
   margin-bottom: 48px;
 }
-
-/* ============PORTFOLIO============= */
 
 .border {
   border-bottom: 1px solid #e7e9fc;

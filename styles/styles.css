@@ -80,10 +80,6 @@ a {
   padding: 96px 0px;
 }
 
-/* .section {
-  padding: 120px 0;
-} */
-
 /* ======= HEADER ===========  */
 
 .header {
@@ -269,7 +265,6 @@ a {
 /* ==============MAIN HERO ==========*/
 
 .main-hero {
-  /* padding-top: 16px; */
   text-align: center;
   max-width: 428px;
   height: 432px;
@@ -874,7 +869,7 @@ a {
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1158px;
-    /* padding: 0 15px; */
+    padding: 0;
   }
 
   .section {
